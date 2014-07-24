@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:gravity="center"
+    android:background="#CCCCCC">
+    <View 
+        android:layout_width="0.5dip" 
+        android:layout_height="30dp" 
+        android:background="#FF909090" 
+        /> 
+    <TextView 
+        android:layout_width="0dp"
+        android:layout_height="30dp"
+        android:gravity="center"
+        android:text="排名"
+        android:textStyle="bold"
+        android:layout_weight="3"/>
+    <View 
+        android:layout_width="0.5dip" 
+        android:layout_height="30dp" 
+        android:background="#FF909090" />
+    <TextView 
+        android:layout_width="0dp"
+        android:layout_height="30dp"
+        android:gravity="center"
+        android:layout_weight="8"
+        android:text="球员"
+        android:textStyle="bold"/>
+        <View 
+        android:layout_width="0.5dip" 
+        android:layout_height="30dp" 
+        android:background="#FF909090" />
+    <TextView 
+        android:layout_width="0dp"
+        android:layout_height="30dp"
+        android:gravity="center"
+        android:layout_weight="8"
+        android:text="国家队"
+        android:textStyle="bold"/>
+        <View 
+        android:layout_width="0.5dip" 
+        android:layout_height="30dp" 
+        android:background="#FF909090" 
+        />
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="30dp"
+        android:gravity="center"
+        android:layout_weight="8"
+        android:text="俱乐部"
+        android:textStyle="bold"/>
+        <View 
+        android:layout_width="0.5dip" 
+        android:layout_height="30dp" 
+        android:background="#FF909090" />
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="30dp"
+        android:gravity="center"
+        android:layout_weight="3"
+        android:text="助攻"
+        android:textStyle="bold"/>
+        <View 
+        android:layout_width="0.5dip" 
+        android:layout_height="30dp" 
+        android:background="#FF909090" />
+   
+</LinearLayout>

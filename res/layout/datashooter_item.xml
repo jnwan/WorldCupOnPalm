@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:gravity="center">
+    <View 
+        android:layout_width="0.5dip" 
+        android:layout_height="33dp" 
+        android:background="#FF909090" 
+        /> 
+    <TextView
+        android:id="@+id/datashooter_rank" 
+        android:layout_width="0dp"
+        android:layout_height="33dp"
+        android:gravity="center"
+        android:layout_weight="3"
+        android:textColor="#CC0033"/>
+    <View 
+        android:layout_width="0.5dip" 
+        android:layout_height="33dp" 
+        android:background="#FF909090" />
+    <TextView
+        android:id="@+id/datashooter_player" 
+        android:layout_width="0dp"
+        android:layout_height="33dp"
+        android:layout_weight="8"
+        android:gravity="center"/>
+        <View 
+        android:layout_width="0.5dip" 
+        android:layout_height="33dp" 
+        android:background="#FF909090" />
+    <TextView
+        android:id="@+id/datashooter_nation" 
+        android:layout_width="0dp"
+        android:layout_height="33dp"
+        android:layout_weight="8"
+        android:gravity="center"/>
+        <View 
+        android:layout_width="0.5dip" 
+        android:layout_height="33dp" 
+        android:background="#FF909090" />
+    <TextView
+        android:id="@+id/datashooter_club" 
+        android:layout_width="0dp"
+        android:layout_height="33dp"
+        android:layout_weight="8"
+        android:gravity="center"/>
+        <View 
+        android:layout_width="0.5dip" 
+        android:layout_height="33dp" 
+        android:background="#FF909090" />
+    <TextView
+        android:id="@+id/datashooter_goal" 
+        android:layout_width="0dp"
+        android:layout_height="33dp"
+        android:layout_weight="3"
+        android:gravity="center"/>
+        <View 
+        android:layout_width="0.5dip" 
+        android:layout_height="33dp" 
+        android:background="#FF909090" />"
+   
+</LinearLayout>
